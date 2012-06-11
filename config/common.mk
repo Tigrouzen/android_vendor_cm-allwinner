@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/handle_compcache:system/bin/handle_compcache
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/RomManager.apk:system/app/RomManager.apk \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
@@ -87,7 +86,6 @@ PRODUCT_PACKAGES += \
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VideoEditor \
     VoiceDialer \
     SoundRecorder \
     Basic \
